@@ -1,0 +1,27 @@
+{
+  "name": "practice-callbacks",
+  "version": "1.0.0",
+  "description": "### 1. `numberMucker` function setup. 1. Create a function called numberMucker 2. In the function body, generate 2 random numbers, between 1 and 1000. 3. Return the multiple of two numbers.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "test:numberMucker": "npm run test numberMucker.test.js",
+    "test:numberMucker2": "npm run test numberMucker2.test.js",
+    "test:numberMucker3": "npm run test numberMucker3.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericwooley/practice-callbacks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericwooley/practice-callbacks/issues"
+  },
+  "homepage": "https://github.com/ericwooley/practice-callbacks#readme",
+  "dependencies": {
+    "@types/jest": "^29.0.3",
+    "jest": "^29.0.3"
+  }
+}
